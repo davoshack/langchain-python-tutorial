@@ -24,6 +24,6 @@ def main(url, file_path):
 
 if __name__ == "__main__":
     youtube_url = "https://youtu.be/CYTwGx43SzY"
-    file_path = "3_things_never_do_in_the_morning.txt"
+    file_path = "/Users/davoscode/Documents/Documents - Juan’s MacBook Air/Coding/data_science_playground/langchain-python-tutorial/3_things_never_do_in_the_morning.txt"
 
     main(youtube_url, file_path)
