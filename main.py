@@ -39,6 +39,8 @@ def main():
     data = parser.parse(response.content)
 
     print(data)
+    print(data.capital)
+    print(data.name)
 
 
 if __name__ == "__main__":
