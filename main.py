@@ -38,7 +38,7 @@ def main():
     response = llm(chat_prompt_with_values.to_messages())
     data = parser.parse(response.content)
 
-    print(f'The capital of {data.name} is {data.capital}')
+    print(f"The capital of {data.name} is {data.capital}")
 
 
 if __name__ == "__main__":
