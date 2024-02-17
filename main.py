@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
-OPENAI_MODEL = "gpt-3.5-turbo"
+OPENAI_MODEL = "gpt-4"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
