@@ -18,7 +18,7 @@ OPENAI_MODEL = "gpt-4"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 PROMPT_COUNTRY_INFO = """
-    Provide information about the country of {country}.
+    Provide information about the country of {country}. If the country doesn't exist, make up something.
     {format_instructions}
 """
 
